@@ -41,6 +41,7 @@ Note: You must enable the `android:debuggable` flag inside the `<application />`
 <enable usb debugging on your phone and connect your phone to your pc via usb>
 adb push $NDK_PATH/prebuilt/android-<arch>/gdbserver/gdbserver /data/local/tmp
 adb connect <LAN IP Address of your phone>
+<optionally unplug device from pc>
 adb shell
 
 -- in device shell now --
