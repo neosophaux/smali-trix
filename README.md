@@ -75,7 +75,7 @@ set arch <your phone's architecture>
 target remote <LAN IP Address of your phone>:<port given to gdbserver>
 ```
 
-#### Getting the mapping addresses of a file in /proc/<pid>/maps in a neatly formatted fashion
+#### Getting the mapping addresses of a file in /proc/\<pid>/maps in a neatly formatted fashion
 ```
 adb shell
 
